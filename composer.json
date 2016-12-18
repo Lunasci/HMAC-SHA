@@ -1,0 +1,21 @@
+{
+    "name": "lunasci/package",
+    "description": "This is a template for a lunasci package",
+    "license": "MIT",
+    "keywords": ["lunasci"],
+    "authors": [
+        {
+            "name": "Luis Perez",
+            "email": "luis.perez@lunasci.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lunasci\\Package\\": "src"
+        }
+    }
+}
