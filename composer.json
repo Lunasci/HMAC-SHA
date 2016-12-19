@@ -1,8 +1,8 @@
 {
-    "name": "lunasci/package",
+    "name": "lunasci/hmac-sha",
     "description": "This is a template for a lunasci package",
     "license": "MIT",
-    "keywords": ["lunasci"],
+    "keywords": ["lunasci", "hmac"],
     "authors": [
         {
             "name": "Luis Perez",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lunasci\\Package\\": "src"
+            "Lunasci\\Hmac\\": "src"
         }
     }
 }
